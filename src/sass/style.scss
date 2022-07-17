@@ -1,0 +1,76 @@
+@import "_variables";
+@import "_reset";
+@import 'fonts';
+@import "_mixin";
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    margin:20px auto;
+    color: crimson;
+}
+
+h2{
+    @extend h1; 
+    font-size: 1.5em;
+    color: brown;
+}
+
+form {
+    width: 50%;
+    margin:30px auto;
+   
+    *{
+        font-family: Poppins,sans-serif; 
+    }
+    @import "_addform";
+    select {
+        display: block;
+      width: 20%;
+        margin:10px auto;
+        font-size: 16px;
+        outline: none;
+    }
+}
+ul{
+    width: 50%;
+    margin: 0 auto;
+    li.complected{
+        background-color: green;
+        color: #fff;
+    }
+    li{
+        display: flex;
+        justify-content: space-between;
+        padding: 3px 5px;
+        align-items: center;
+        border: 1px solid #ddd;
+        margin-bottom: 5px;
+        *{
+            font-size: 16px;
+        }
+        .btns {
+            width: 22%;
+            display: flex;
+            justify-content: space-between;
+            i {
+               padding: 8px 15px;
+               font-size: 18px;
+               background-color: steelblue;
+               color: #ddd;
+               cursor: pointer;
+               &:nth-child(1){
+                background-color: crimson;
+               }
+               &:nth-child(2){
+                background-color: yellow;
+                color: black;
+               }
+               &:nth-child(3){
+                background-color: fuchsia;
+                color: black;
+               }
+            }
+        }
+    }
+}

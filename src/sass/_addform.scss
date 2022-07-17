@@ -1,0 +1,21 @@
+.add-form{
+    display: flex;
+    justify-content: space-between;
+    input{
+      width: 80%;
+      padding: 5px 5px;
+      outline: none;
+      font-family: Poppins,sans-serif;
+      font-size: 18px;
+    }
+    button {
+      width: 17%;
+      background-color: crimson;
+      border-radius: 5%;
+      cursor: pointer;
+      color: #fff;
+      border: 0;
+
+    }
+
+  }

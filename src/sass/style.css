@@ -1,0 +1,174 @@
+/*
+*  html5resetcss
+*/
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+h1, h2 {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px auto;
+  color: crimson;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: brown;
+}
+
+form {
+  width: 50%;
+  margin: 30px auto;
+}
+form * {
+  font-family: Poppins, sans-serif;
+}
+form .add-form {
+  display: flex;
+  justify-content: space-between;
+}
+form .add-form input {
+  width: 80%;
+  padding: 5px 5px;
+  outline: none;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+}
+form .add-form button {
+  width: 17%;
+  background-color: crimson;
+  border-radius: 5%;
+  cursor: pointer;
+  color: #fff;
+  border: 0;
+}
+form select {
+  display: block;
+  width: 20%;
+  margin: 10px auto;
+  font-size: 16px;
+  outline: none;
+}
+
+ul {
+  width: 50%;
+  margin: 0 auto;
+}
+ul li.complected {
+  background-color: green;
+  color: #fff;
+}
+ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 5px;
+  align-items: center;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+ul li * {
+  font-size: 16px;
+}
+ul li .btns {
+  width: 22%;
+  display: flex;
+  justify-content: space-between;
+}
+ul li .btns i {
+  padding: 8px 15px;
+  font-size: 18px;
+  background-color: steelblue;
+  color: #ddd;
+  cursor: pointer;
+}
+ul li .btns i:nth-child(1) {
+  background-color: crimson;
+}
+ul li .btns i:nth-child(2) {
+  background-color: yellow;
+  color: black;
+}
+ul li .btns i:nth-child(3) {
+  background-color: fuchsia;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
